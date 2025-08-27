@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Manager",
+  "version": "1.0",
+  "description": "Merge all tabs into one window and sort them by title.",
+  "permissions": ["tabs", "windows"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Errrr Fullll"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
